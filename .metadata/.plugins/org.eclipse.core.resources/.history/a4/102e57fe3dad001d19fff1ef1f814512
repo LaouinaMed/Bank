@@ -1,0 +1,17 @@
+package metier.admin;
+
+import metier.authentification.IServiceIHM;
+
+public interface IServiceIHMAdmin extends IServiceIHM {
+
+    
+    int menuInformations();
+    int menuAjout();
+    int menuSuppression();
+    
+    int menuComptabilité();
+    int menuModification();
+    int menuRecherche();
+    int tableauDeBord();
+    int menuTrie();
+}

@@ -1,0 +1,21 @@
+package metier.clients;
+
+import presentation.modele.Compte;
+
+public interface IServiceClinent {
+	
+	
+	boolean retrait  (int choixRetrait);
+    boolean virement ();
+    boolean modifierProfile(int choixModification);
+    void dernièresOpérations();
+	
+	 boolean versement();
+     boolean retrait  ();
+
+     
+     Double afficherSolde();
+     Compte choisirCompte();
+
+     void afficherTicket();
+}

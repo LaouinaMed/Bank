@@ -1,0 +1,5 @@
+package presentation.modele;
+
+public class Banque {
+
+}

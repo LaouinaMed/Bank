@@ -1,0 +1,5 @@
+package metier.clients;
+
+public interface IServiceClinent {
+
+}
